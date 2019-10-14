@@ -1,6 +1,7 @@
-options.o: options.c /usr/include/stdc-predef.h ../../config.h syshead.h \
- ../../src/compat/compat.h /usr/include/x86_64-linux-gnu/sys/time.h \
- /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
+options.o: options.c /usr/include/stdc-predef.h ../../config.h \
+ ../../config-version.h syshead.h ../../src/compat/compat.h \
+ /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/features.h \
+ /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
  /usr/include/x86_64-linux-gnu/bits/long-double.h \
  /usr/include/x86_64-linux-gnu/gnu/stubs.h \
@@ -204,6 +205,8 @@ options.o: options.c /usr/include/stdc-predef.h ../../config.h syshead.h \
 /usr/include/stdc-predef.h:
 
 ../../config.h:
+
+../../config-version.h:
 
 syshead.h:
 

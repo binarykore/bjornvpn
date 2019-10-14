@@ -128,7 +128,7 @@
 #define HAVE_CMSGHDR 1
 
 /* extra version available in config-version.h */
-/* #undef HAVE_CONFIG_VERSION_H */
+#define HAVE_CONFIG_VERSION_H 1
 
 /* Define to 1 if you have the `connect' function. */
 #define HAVE_CONNECT 1
