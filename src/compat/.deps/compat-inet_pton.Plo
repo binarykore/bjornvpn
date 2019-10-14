@@ -1,0 +1,6 @@
+compat-inet_pton.lo: compat-inet_pton.c /usr/include/stdc-predef.h \
+ ../../config.h
+
+/usr/include/stdc-predef.h:
+
+../../config.h:

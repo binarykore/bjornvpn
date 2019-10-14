@@ -1,0 +1,6 @@
+compat-inet_ntop.lo: compat-inet_ntop.c /usr/include/stdc-predef.h \
+ ../../config.h
+
+/usr/include/stdc-predef.h:
+
+../../config.h:
